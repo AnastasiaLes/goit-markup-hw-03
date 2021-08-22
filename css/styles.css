@@ -154,10 +154,11 @@ h6 {
 
 .hero-button {
   display: flex;
+  padding: 10px 32px;
   margin-left: auto;
   margin-right: auto;
 
-  width: 200px;
+  min-width: 200px;
   height: 50px;
 
   border-color: transparent;
