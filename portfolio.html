@@ -43,7 +43,7 @@
 
     </header>
     <main>
-        <h1>Портфолио</h1>
+        <h1 class="visually-hidden">Портфолио</h1>
         <!-- links -->
         <section>
             <div class="container">
@@ -56,41 +56,47 @@
                 </ul>
                 
                 <ul class="list work-list">
-                    <li><img src="./images/portfolio/portfolio1-min.jpg" alt="Команда" width="370" height="290">
-                        <h2 class="work-list-title">Технокряк</h2>
-                        <p class="work-list-text">Веб-сайт</p>
+                    <li class="work-item"><img src="./images/portfolio/portfolio1-min.jpg" alt="Команда" width="370" height="294">
+                        <div class="card">
+                            <h2 class="work-list-title">Технокряк</h2>
+                            <p class="work-list-text">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li><img src="./images/portfolio/portfolio2-min.jpg" alt="Баскетбол" width="370" height="290">
-                        <h2 class="work-list-title">Постер New Orlean vs Golden Star</h2>
+                    <li class="work-item"><img src="./images/portfolio/portfolio2-min.jpg" alt="Баскетбол" width="370" height="294">
+                        
+                        <div class="card">
+                            <h2 class="work-list-title">Постер New Orlean vs Golden Star</h2>
                         <p class="work-list-text">Дизайн</p>
+                        </div>
                     </li>
-                    <li><img src="./images/portfolio/portfolio3-min.jpg" alt="Рыба" width="370" height="290">
+                    <li class="work-item"><img src="./images/portfolio/portfolio3-min.jpg" alt="Рыба" width="370" height="294">
+                        <div class="card">
                         <h2 class="work-list-title">Ресторан Seafood</h2>
-                        <p class="work-list-text">Приложение</p>
+                        <p class="work-list-text">Приложение</p></div>
                     </li>
-                    <li><img src="./images/portfolio/portfolio4-min.jpg" alt="Наушники" width="370" height="290">
-                        <h2 class="work-list-title">Проект Prime</h2>
-                        <p class="work-list-text">Маркетинг</p>
+                    <li class="work-item"><img src="./images/portfolio/portfolio4-min.jpg" alt="Наушники" width="370" height="294">
+                        <div class="card"><h2 class="work-list-title">Проект Prime</h2>
+                        <p class="work-list-text">Маркетинг</p></div>
                     </li>
-                    <li><img src="./images/portfolio/portfolio5-min.jpg" alt="Коробки" width="370" height="290">
-                        <h2 class="work-list-title">Проект Boxes</h2>
-                        <p class="work-list-text">Приложение</p>
+                    <li class="work-item"><img src="./images/portfolio/portfolio5-min.jpg" alt="Коробки" width="370" height="294">
+                        <div class="card"><h2 class="work-list-title">Проект Boxes</h2>
+                        <p class="work-list-text">Приложение</p></div>
                     </li>
-                    <li><img src="./images/portfolio/portfolio6-min.jpg" alt="Монитор" width="370" height="290">
-                        <h2 class="work-list-title">Inspiration has no Borders</h2>
-                        <p class="work-list-text">Веб-сайт</p>
+                    <li class="work-item"><img src="./images/portfolio/portfolio6-min.jpg" alt="Монитор" width="370" height="294">
+                        <div class="card"><h2 class="work-list-title">Inspiration has no Borders</h2>
+                        <p class="work-list-text">Веб-сайт</p></div>
                     </li>
-                    <li><img src="./images/portfolio/portfolio7-min.jpg" alt="Журнал" width="370" height="290">
-                        <h2 class="work-list-title">Издание Limited Edition</h2>
-                        <p class="work-list-text">Дизайн</p>
+                    <li class="work-item"><img src="./images/portfolio/portfolio7-min.jpg" alt="Журнал" width="370" height="294">
+                        <div class="card"><h2 class="work-list-title">Издание Limited Edition</h2>
+                        <p class="work-list-text">Дизайн</p></div>
                     </li>
-                    <li><img src="./images/portfolio/portfolio8-min.jpg" alt="Этикетка" width="370" height="290">
-                        <h2 class="work-list-title">Проект LAB</h2>
-                        <p class="work-list-text">Маркетинг</p>
+                    <li class="work-item"><img src="./images/portfolio/portfolio8-min.jpg" alt="Этикетка" width="370" height="294">
+                        <div class="card"><h2 class="work-list-title">Проект LAB</h2>
+                        <p class="work-list-text">Маркетинг</p></div>
                     </li>
-                    <li><img src="./images/portfolio/portfolio9-min.jpg" alt="Ноутбук" width="370" height="290">
-                        <h2 class="work-list-title">Growing Business</h2>
-                        <p class="work-list-text">Веб-сайт</p>
+                    <li class="work-item"><img src="./images/portfolio/portfolio9-min.jpg" alt="Ноутбук" width="370" height="294">
+                        <div class="card"><h2 class="work-list-title">Growing Business</h2>
+                        <p class="work-list-text">Веб-сайт</p></div>
                     </li>
                 </ul>
 
@@ -100,14 +106,21 @@
     </main>
 
     <footer class="footer">
-        <a class="footer-logo link" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
-        <address class="address">
-            г. Киев, пр-т Леси Украинки, 26
-        </address>
-        <address class="footer-contacts">
-            <a class="link" href="mailto:info@example.com">info@example.com </a> <br>
-            <a class="link" href="tel:+380991111111"> +38 099 111 11 11 </a>
-        </address>
+        <div class="container">
+            <a class="footer-logo link" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+            <div class="footer-address">
+                <address class="address">
+                    г. Киев, пр-т Леси Украинки, 26
+                </address>
+                <address class="footer-contacts">
+                    <a class="link" href="mailto:info@example.com">info@example.com </a> <br>
+                    <a class="link" href="tel:+380991111111"> +38 099 111 11 11 </a>
+                </address>
+            </div>
+    
+        </div>
+    
+    
     </footer>
 </body>
 
